@@ -66,7 +66,18 @@ export const FrontMatter: QuartzTransformerPlugin<Partial<Options>> = (userOpts)
             const { data } = matter(fileData, {
               ...opts,
               engines: {
-                yaml: (s) => yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object,
+                // A note with invalid YAML front matter should not break the whole
+                // site build, so warn and render it without front matter instead.
+                yaml: (s) => {
+                  try {
+                    return yaml.load(s, { schema: yaml.JSON_SCHEMA }) as object
+                  } catch (err) {
+                    console.warn(
+                      `Warning: invalid front matter in ${file.path}, ignoring it: ${(err as Error).message.split("\n")[0]}`,
+                    )
+                    return {}
+                  }
+                },
                 toml: (s) => toml.parse(s) as object,
               },
             })

@@ -35,6 +35,8 @@ if [ -n "$(git status --porcelain)" ]; then
   git add -A
   git commit -m "Auto-update: $(date '+%Y-%m-%d')"
 fi
+# Pick up any commits made on GitHub (e.g. fixes) before pushing
+git pull --rebase --quiet || echo "[$(date '+%Y-%m-%d %H:%M:%S')] Pull failed; pushing anyway."
 if [ -n "$(git log --oneline @{u}..HEAD 2>/dev/null || echo unpushed)" ]; then
   if git push -u origin main; then
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] Changes pushed."
