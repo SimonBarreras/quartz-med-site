@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><script>(function(){try{var p=window.location.pathname;if(p.indexOf('password-gate')===-1&&sessionStorage.getItem('med_auth')!=='1'){window.location.replace('/quartz-med-site/static/password-gate.html');}}catch(e){}})();</script><title>lecture-5-4-krebs-cycle-notes | Medicine Notes</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Medicine Notes"/><meta property="og:title" content="lecture-5-4-krebs-cycle-notes | Medicine Notes"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="lecture-5-4-krebs-cycle-notes | Medicine Notes"/><meta name="twitter:description" content="Lecture 5.4 - The Citric Acid Cycle (Krebs Cycle) Course: From the Molecule to the Cell I (Prof."/><meta property="og:description" content="Lecture 5.4 - The Citric Acid Cycle (Krebs Cycle) Course: From the Molecule to the Cell I (Prof."/><meta property="og:image:alt" content="Lecture 5.4 - The Citric Acid Cycle (Krebs Cycle) Course: From the Molecule to the Cell I (Prof."/><meta property="og:image" content="https://simonbarreras.github.io/quartz-med-site/static/og-image.png"/><meta property="og:image:url" content="https://simonbarreras.github.io/quartz-med-site/static/og-image.png"/><meta name="twitter:image" content="https://simonbarreras.github.io/quartz-med-site/static/og-image.png"/><meta property="og:image:type" content="image/.png"/><meta property="twitter:domain" content="simonbarreras.github.io/quartz-med-site"/><meta property="og:url" content="https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/lecture-5-4-krebs-cycle-notes"/><meta property="twitter:url" content="https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/lecture-5-4-krebs-cycle-notes"/><link rel="icon" href="../../../../../static/icon.png"/><meta name="description" content="Lecture 5.4 - The Citric Acid Cycle (Krebs Cycle) Course: From the Molecule to the Cell I (Prof."/><meta name="generator" content="Quartz"/><link href="../../../../../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL2hvbWUvcnVubmVyL3dvcmsvcXVhcnR6LW1lZC1zaXRlL3F1YXJ0ei1tZWQtc2l0ZS9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../../../../../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../../../../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://simonbarreras.github.io/quartz-med-site/index.xml"/></head><body data-slug="Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/lecture-5-4-krebs-cycle-notes"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../../../../..">Medicine Notes</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 1rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-71"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-71" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../../../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../../../Medical-Degree/">Medical Degree</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../../../Medical-Degree/Year-1/">Year 1</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../../../Medical-Degree/Year-1/FMCI/">FMCI</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../../../Medical-Degree/Year-1/FMCI/Lectures/">Lectures</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../../../../Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/">Lecture notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>lecture 5 4 krebs cycle notes</a></div></nav><h1 class="article-title">lecture-5-4-krebs-cycle-notes</h1><p show-comma="true" class="content-meta"><time datetime="2026-10-29T20:38:11.000Z">Oct 29, 2026</time><span>8 min read</span></p></div></div><article class="popover-hint"><h1 id="lecture-54---the-citric-acid-cycle-krebs-cycle">Lecture 5.4 - The Citric Acid Cycle (Krebs Cycle)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lecture-54---the-citric-acid-cycle-krebs-cycle" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p>Course: From the Molecule to the Cell I (Prof. Alberto Perez-Mediavilla)
+Sources: Lecture slides (Ciclo_Krebs_DMCI) + Lecture notes PDF</p>
+<h2 id="big-picture-cellular-respiration">Big Picture: Cellular Respiration<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#big-picture-cellular-respiration" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Glycolysis alone captures only a small fraction of glucose’s energy: Delta-G’0 = -146 kJ/mol released in glycolysis vs -2,840 kJ/mol for full oxidation to 6 CO2 + 6 H2O. Glycolysis nets only 2 ATP.</li>
+<li>Cellular respiration = the set of reactions converting biochemical energy from nutrients into ATP; cells consume O2 and produce CO2. Captures energy from glucose, lipids, AND amino acids. Evolutionarily ancient (~2.5 billion years old); used by animals, plants, many microbes.</li>
+<li>Three stages:</li>
+</ul>
+<ol>
+<li>Acetyl-CoA production (carbon skeletons of fuels oxidized to acetyl-CoA; carbohydrates release ~1/3 of potential CO2 here)</li>
+<li>Acetyl-CoA oxidation (Krebs cycle: acetate’s 2 carbons oxidized to CO2; energy conserved as NADH and FADH2; 1 GTP per turn)</li>
+<li>Oxidative phosphorylation (NADH/FADH2 reoxidized via electron transport chain, electrons end up reducing O2; vast majority of ATP generated here)</li>
+</ol>
+<ul>
+<li>Location in eukaryotes: glycolysis in cytoplasm; Krebs cycle in mitochondrial matrix; oxidative phosphorylation in inner membrane. EXCEPTION: succinate dehydrogenase is bound to the inner membrane (it IS Complex II of the ETC).</li>
+<li>The Krebs cycle does NOT directly make much ATP; its job is to generate electrons (NADH, FADH2) that drive stage 3. It is also the central hub/gateway of aerobic metabolism: supplies precursors for amino acids, nucleotides, porphyrins, and even glucose (from oxaloacetate). Amphibolic pathway.</li>
+</ul>
+<h2 id="production-of-acetyl-coa-pyruvate-dehydrogenase-complex-pdcpdh">Production of Acetyl-CoA: Pyruvate Dehydrogenase Complex (PDC/PDH)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#production-of-acetyl-coa-pyruvate-dehydrogenase-complex-pdcpdh" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Net reaction: pyruvate + CoA-SH + NAD+ <span>→</span> acetyl-CoA + CO2 + NADH (oxidative decarboxylation; first carbons of glucose fully oxidized).</li>
+<li>Energy released is conserved both as a thioester bond (acetyl-CoA) and as NADH (later worth 2.5 ATP).</li>
+<li>Large multienzyme complex (up to 10 MDa) in the mitochondria, 3 enzymes + 5 coenzymes:</li>
+<li>E1: pyruvate dehydrogenase</li>
+<li>E2: dihydrolipoyl transacetylase</li>
+<li>E3: dihydrolipoyl dehydrogenase</li>
+<li>Coenzymes: TPP, lipoic acid (lipoyllysine), FAD (prosthetic groups, tightly bound); NAD+ and CoA-SH (co-substrates, associate/dissociate).</li>
+<li>Advantage of multienzyme complexes: substrate channeling (intermediates never leave the complex), minimizes side reactions, regulation of one subunit affects the whole complex.</li>
+<li>Cofactor/vitamin notes (exam-worthy clinical links):</li>
+<li>TPP = coenzymatic form of vitamin B1; deficiency causes Beriberi (nervous + cardiac disorders). Severe thiamine deficiency <span>→</span> Wernicke-Korsakoff syndrome (memory loss, confusion, paralysis), common in alcoholics (poor intestinal absorption).</li>
+<li>FAD contains riboflavin (vitamin B2).</li>
+<li>NAD+ contains nicotinamide (vitamin B3); deficiency causes Pellagra (dermatitis, fatigue, encephalopathies).</li>
+<li>Lipoic acid: two SH groups carry the acetyl group and electrons. Arsenic toxicity = binds lipoic acid’s SH groups, blocking PDH and alpha-ketoglutarate dehydrogenase.</li>
+<li>CoA structure: beta-mercaptoethylamine + pantothenic acid + 3’-phosphoadenosine 5’-diphosphate. Its function is to accept and carry acetyl groups.</li>
+<li>PDH regulation (two mechanisms):</li>
+</ul>
+<ol>
+<li>Allosteric inhibition by NADH and acetyl-CoA (they keep E2 acetylated, unable to accept the hydroxyethyl group from TPP).</li>
+<li>Covalent modification (reversible phosphorylation of E1): PDH KINASE phosphorylates <span>→</span> INACTIVE; PDH PHOSPHATASE dephosphorylates <span>→</span> active. Kinase stimulated by ATP, acetyl-CoA, NADH; phosphatase stimulated by Ca++ and Mg++; ADP, pyruvate, NAD+ favor the active (dephosphorylated) state. High ATP <span>→</span> phosphorylated PDH <span>→</span> less acetyl-CoA. Analogous to glycogen synthase/phosphorylase regulation.</li>
+</ol>
+<h2 id="the-eight-steps-of-the-cycle">The Eight Steps of the Cycle<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#the-eight-steps-of-the-cycle" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Overall per turn: Acetyl-CoA + 3 NAD+ + FAD + GDP + Pi + 2 H2O <span>→</span> 2 CO2 + 3 NADH + FADH2 + GTP + CoA-SH + 3 H+.
+Each lap: 1 acetyl-CoA in, 2 CO2 out; oxaloacetate (OA) regenerated.</p>
+<ol>
+<li>Citrate formation - CITRATE SYNTHASE</li>
+</ol>
+<ul>
+<li>Condensation of acetyl-CoA (methyl carbon) with OA (carbonyl); only C-C bond forming reaction of the cycle. Intermediate citroyl-CoA stays bound; thioester hydrolysis makes it highly exergonic/irreversible. RATE-LIMITING step; activity depends strongly on [oxaloacetate]. Acid/base catalysis (OA carbonyl = electrophile; acetyl methyl must be deprotonated to become nucleophile). CoA is recycled. Regulated by substrate availability and product inhibition (also inhibited by succinyl-CoA, citrate).</li>
+</ul>
+<ol start="2">
+<li>Citrate <span>→</span> isocitrate - ACONITASE (aconitate hydratase)</li>
+</ol>
+<ul>
+<li>Reversible isomerization by dehydration/rehydration; Fe-S center positions substrate and adds/removes water. Although citrate is symmetric, aconitase acts only on the carbons that came from OA. Inhibited by ATP and NADH (after a big meal, citrate accumulates, exits mitochondria, feeds fatty acid/TAG synthesis and inhibits PFK-1 in glycolysis). Fluoroacetate is a poison: converted to fluoroacetyl-CoA, inhibits aconitase.</li>
+</ul>
+<ol start="3">
+<li>Isocitrate <span>→</span> alpha-ketoglutarate + CO2 - ISOCITRATE DEHYDROGENASE (IDH)</li>
+</ol>
+<ul>
+<li>First oxidative decarboxylation. Two isozymes: mitochondrial NAD+-dependent (main catabolic one) and NADP+-dependent (mito + cytosolic; main job = generate NADPH for biosynthesis). Highly favorable/irreversible; regulated by [ATP].</li>
+</ul>
+<ol start="4">
+<li>Alpha-ketoglutarate <span>→</span> succinyl-CoA + CO2 - ALPHA-KETOGLUTARATE DEHYDROGENASE (KDH)</li>
+</ol>
+<ul>
+<li>Second (final) oxidative decarboxylation: after two turns all glucose carbons are released as CO2, but the CO2 released is NOT the same carbons that entered (they came from OA). Mechanistically identical to PDH: same 3 enzymes (E1 alpha-KG dehydrogenase, E2 dihydrolipoyl transuccinylase, E3 dihydrolipoyl dehydrogenase) and same 5 coenzymes (TPP, lipoic acid, CoA, FAD, NAD+). Energy conserved as NADH + thioester (succinyl-CoA). Highly favorable/irreversible; product inhibition.</li>
+</ul>
+<ol start="5">
+<li>Succinyl-CoA <span>→</span> succinate - SUCCINYL-COA SYNTHETASE</li>
+</ol>
+<ul>
+<li>Substrate-level phosphorylation: thioester energy used to make GTP from GDP + Pi, via a phospho-enzyme (His) intermediate. 3 steps: succinyl-P forms (CoA released) <span>→</span> P transferred to His <span>→</span> P transferred to GDP forming GTP. GTP <span>←</span>> ATP via nucleoside diphosphate kinase (GTP + ADP <span>←</span>> GDP + ATP). Slightly favorable/reversible.</li>
+</ul>
+<ol start="6">
+<li>Succinate <span>→</span> fumarate - SUCCINATE DEHYDROGENASE</li>
+</ol>
+<ul>
+<li>Oxidation of alkane to alkene. Flavoprotein (FAD covalently bound, unusual); electrons go to FAD <span>→</span> FADH2 (redox potential of C-H too low for NADH), then into the ETC (drives 1.5 ATP). Bound to inner mitochondrial membrane = ETC Complex II. Near equilibrium/reversible. STRONGLY inhibited by MALONATE (structural analog of succinate) - classic experiment blocking the cycle.</li>
+</ul>
+<ol start="7">
+<li>Fumarate <span>→</span> L-malate - FUMARASE</li>
+</ol>
+<ul>
+<li>Stereospecific trans hydration across the double bond; OH- adds to fumarate, then H+ to the carbanion. Only uses the trans isomer. Slightly favorable/reversible.</li>
+</ul>
+<ol start="8">
+<li>Malate <span>→</span> oxaloacetate - MALATE DEHYDROGENASE (MDH)</li>
+</ol>
+<ul>
+<li>Regenerates OA for citrate synthase. Equilibrium actually lies FAR LEFT (thermodynamically very unfavorable) but is pulled forward because citrate synthase keeps [OA] extremely low. Reversible under physiological conditions; when NADH accumulates the reaction reverses, dropping OA availability and slowing citrate synthase.</li>
+</ul>
+<h2 id="atp-yield">ATP Yield<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#atp-yield" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Per turn of the cycle: 3 NADH (x2.5 = 7.5 ATP) + 1 FADH2 (x1.5) + 1 GTP <span>→</span> ~10 ATP per acetyl-CoA.</li>
+<li>Per glucose (Table 16-1 logic): glycolysis 2 ATP + 2 NADH (3 or 5 ATP depending on cytosolic NADH shuttle: 30-32 total); PDH: 2 NADH = 5; Krebs x2 turns: 6 NADH (15) + 2 FADH2 (3) + 2 GTP (2). TOTAL = 30-32 ATP per glucose (2.5 ATP/NADH, 1.5 ATP/FADH2).</li>
+</ul>
+<h2 id="regulation-of-the-cycle">Regulation of the Cycle<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#regulation-of-the-cycle" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Regulated at the irreversible, highly favorable steps: PDH, citrate synthase, IDH, alpha-KDH.</li>
+<li>General logic: activated by substrate availability; inhibited by product accumulation. Pathway-level products NADH and ATP inhibit; NAD+ and AMP activate. Overall cycle flux depends on NAD+ availability, which depends on NADH consumption by the respiratory chain, which depends on the cell’s ATP consumption.</li>
+<li>Product accumulation (citrate, succinyl-CoA, ATP) inhibits the three limiting steps (CS, IDH, KDH). NADH accumulation also reverses MDH <span>→</span> less OA <span>→</span> slower CS.</li>
+<li>PDH: allosteric (NADH, acetyl-CoA) + phosphorylation (see above).</li>
+<li>Extra cross-talk:</li>
+<li>Succinyl-CoA also inhibits citrate synthase (signals flux at the alpha-KG amino acid branch point back to the cycle start).</li>
+<li>IDH inhibition <span>→</span> isocitrate accumulates <span>→</span> aconitase reverses <span>→</span> CITRATE accumulates <span>→</span> citrate leaves mitochondria and INHIBITS PFK-1 (glycolysis) and provides carbon for fatty acid synthesis.</li>
+<li>Ca++ (muscle contraction signal) activates IDH, KDH, and PDH <span>→</span> matches ATP production to contraction.</li>
+</ul>
+<h2 id="amphibolic-nature-and-anaplerotic-reactions">Amphibolic Nature and Anaplerotic Reactions<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#amphibolic-nature-and-anaplerotic-reactions" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Amphibolic = both catabolic and anabolic. Intermediates leave for biosynthesis: alpha-KG and OA <span>→</span> Asp/Glu <span>→</span> nucleotides; OA <span>→</span> glucose (gluconeogenesis); succinyl-CoA <span>→</span> porphyrins.</li>
+<li>Because intermediates are drained, the cycle would stop (no OA to accept acetyl-CoA); anaplerotic (“filling up”) reactions replenish them. 4-carbon intermediates are formed by carboxylation of 3-carbon precursors:</li>
+</ul>
+<ol>
+<li>Pyruvate carboxylase (liver, kidney - MOST IMPORTANT): pyruvate + HCO3- + ATP <span>→</span> OA + ADP + Pi. Consumes energy, requires BIOTIN (covalently bound), allosterically activated by acetyl-CoA (acetyl-CoA accumulates precisely when OA is low - elegant self-correcting signal).</li>
+<li>PEP carboxykinase (heart, skeletal muscle): PEP + CO2 + GDP <span>→</span> OA + GTP.</li>
+<li>Malic enzyme: pyruvate + HCO3- + NAD(P)H <span>→</span> malate + NAD(P)+.</li>
+</ol>
+<h2 id="key-exam-hooks">Key exam hooks<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#key-exam-hooks" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>Location exception: succinate dehydrogenase in inner membrane (Complex II).</li>
+<li>Malonate inhibits SDH; fluoroacetate inhibits aconitase; arsenic poisons lipoic-acid enzymes (PDH, KDH).</li>
+<li>Thiamine (B1) deficiency <span>→</span> Beriberi / Wernicke-Korsakoff; B3 deficiency <span>→</span> Pellagra.</li>
+<li>CO2 released in a turn does not come from the acetyl-CoA that just entered - it comes from OA carbons.</li>
+<li>MDH reaction is unfavorable but pulled forward by low [OA] maintained by citrate synthase.</li>
+<li>Glycolysis vs Krebs: linear vs cyclic; OA regenerated each turn.</li>
+</ul></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc desktop-only"><button type="button" class="toc-header" aria-controls="toc-28" aria-expanded="true"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-1" class="toc-content overflow"><li class="depth-0"><a href="#lecture-54---the-citric-acid-cycle-krebs-cycle" data-for="lecture-54---the-citric-acid-cycle-krebs-cycle">Lecture 5.4 - The Citric Acid Cycle (Krebs Cycle)</a></li><li class="depth-1"><a href="#big-picture-cellular-respiration" data-for="big-picture-cellular-respiration">Big Picture: Cellular Respiration</a></li><li class="depth-1"><a href="#production-of-acetyl-coa-pyruvate-dehydrogenase-complex-pdcpdh" data-for="production-of-acetyl-coa-pyruvate-dehydrogenase-complex-pdcpdh">Production of Acetyl-CoA: Pyruvate Dehydrogenase Complex (PDC/PDH)</a></li><li class="depth-1"><a href="#the-eight-steps-of-the-cycle" data-for="the-eight-steps-of-the-cycle">The Eight Steps of the Cycle</a></li><li class="depth-1"><a href="#atp-yield" data-for="atp-yield">ATP Yield</a></li><li class="depth-1"><a href="#regulation-of-the-cycle" data-for="regulation-of-the-cycle">Regulation of the Cycle</a></li><li class="depth-1"><a href="#amphibolic-nature-and-anaplerotic-reactions" data-for="amphibolic-nature-and-anaplerotic-reactions">Amphibolic Nature and Anaplerotic Reactions</a></li><li class="depth-1"><a href="#key-exam-hooks" data-for="key-exam-hooks">Key exam hooks</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>Backlinks</h3><ul id="list-2" class="overflow"><li><a href="../../../../../Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Lec-5.7-Oxidative-phosphorylation" class="internal">Lec 5.7 Oxidative phosphorylation</a></li><li><a href="../../../../../Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Lec-5.8-Amino-acid-catabolism-and-the-urea-cycle" class="internal">Lec 5.8 Amino acid catabolism and the urea cycle</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../../../../../postscript.js" type="module" data-persist="true"></script></html>
