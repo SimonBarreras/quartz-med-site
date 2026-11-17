@@ -1,7 +1,7 @@
 ---
 tags: [unav, medicine, fmci, protein-folding, protein-targeting, lecture-notes]
 course: FMCI
-topic: Lec 8.6 Protein maturation, folding and targeting (slides: "Protein Targeting and Degradation")
+topic: Lec 8.6 Protein maturation, folding and targeting (slides "Protein Targeting and Degradation")
 lecturer: Dr. Alberto Pérez-Mediavilla
 transcripts: ["lec 8.6 targeting and protein degradation..txt"]
 ---

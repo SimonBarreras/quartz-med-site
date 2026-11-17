@@ -175,17 +175,17 @@ Pol III is the main replicase; Pol I does clean-up (primer removal) and repair; 
 
 At least nine proteins open the helix at oriC and build a prepriming complex; **DnaA** is the crucial one.
 
-| Protein | Function |
-| --- | --- |
-| DnaA | Recognizes ori; opens the duplex at specific sites |
-| DnaB (helicase, 6 identical subunits) | Unwinds DNA |
-| DnaC | Needed to load DnaB at the origin |
-| HU | Histone-like DNA-binding protein; stimulates initiation |
-| Primase (DnaG) | Makes RNA primers |
-| SSB (4 identical subunits) | Binds single-stranded DNA |
-| RNA polymerase | Facilitates DnaA activity |
-| DNA gyrase (topoisomerase II) | Relieves torsional strain from unwinding |
-| Dam methylase | Methylates (5')GATC sequences at oriC |
+| Protein                               | Function                                                |
+| ------------------------------------- | ------------------------------------------------------- |
+| DnaA                                  | Recognizes ori; opens the duplex at specific sites      |
+| DnaB (helicase, 6 identical subunits) | Unwinds DNA                                             |
+| DnaC                                  | Needed to load DnaB at the origin                       |
+| HU                                    | Histone-like DNA-binding protein; stimulates initiation |
+| Primase (DnaG)                        | Makes RNA primers                                       |
+| SSB (4 identical subunits)            | Binds single-stranded DNA                               |
+| RNA polymerase                        | Facilitates DnaA activity                               |
+| DNA gyrase (topoisomerase II)         | Relieves torsional strain from unwinding                |
+| Dam methylase                         | Methylates (5')GATC sequences at oriC                   |
 
 Steps:
 

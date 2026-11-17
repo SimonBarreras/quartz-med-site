@@ -1,6 +1,6 @@
 ---
-tags: [unav, medicine, fmci, cancer, oncogenic-viruses, hboc, angiogenesis, immunotherapy, breast-cancer, tbl, lecture-notes]
-course: FMCI
+tags: [unav, medicine, fmci, genetics, cancer, oncogenic-viruses, hboc, angiogenesis, immunotherapy, breast-cancer, tbl, lecture-notes]
+course: FMCI (Genetics)
 topic: TBL 9.2 Cell cycle dysregulation in cancer
 lecturer: not named in the transcript (refers to HER2 testing "as we explained yesterday")
 date: 2026-10-29
@@ -9,8 +9,8 @@ transcripts: ["TBL 9.2 Dysreguoation of cell cycle in cancer pt. 1.txt", "TBL 9.
 # TBL 9.2 Cell cycle dysregulation in cancer
 
 ## Sources
-- [[Universidad de Navarra/Medical Degree/Year 1/Transcripts/FMC I/TBL 9.2 Dysreguoation of cell cycle in cancer pt. 1|FMC I/TBL 9.2 pt. 1]] (automatic transcription, errors corrected). Opens with which slides are examinable; covers cancer as a multistep disease, tobacco smoke, papillomavirus, familial adenomatous polyposis, genomic instability, BRCA1/2 and HBOC. Ends at the 10-minute break.
-- [[Universidad de Navarra/Medical Degree/Year 1/Transcripts/FMC I/TBL 9.2 continued|FMC I/TBL 9.2 continued]] (automatic transcription). Opens with clinical case 1 (BRCA1 carrier); covers the team discussion, angiogenesis and metastasis (with a narrated video), the immune system and immunotherapy (narrated video), and clinical case 2 (HER2-positive breast cancer). Ends: "So we are done."
+- [[Universidad de Navarra/Medical Degree/Year 1/Transcripts/FMC Genetics/TBL 9.2 Dysreguoation of cell cycle in cancer pt. 1|FMC Genetics/TBL 9.2 pt. 1]] (automatic transcription, errors corrected; moved from FMC I to FMC Genetics on 2026-11-03). Opens with which slides are examinable; covers cancer as a multistep disease, tobacco smoke, papillomavirus, familial adenomatous polyposis, genomic instability, BRCA1/2 and HBOC. Ends at the 10-minute break.
+- [[Universidad de Navarra/Medical Degree/Year 1/Transcripts/FMC Genetics/TBL 9.2 continued|FMC Genetics/TBL 9.2 continued]] (automatic transcription; moved from FMC I to FMC Genetics on 2026-11-03). Opens with clinical case 1 (BRCA1 carrier); covers the team discussion, angiogenesis and metastasis (with a narrated video), the immune system and immunotherapy (narrated video), and clinical case 2 (HER2-positive breast cancer). Ends: "So we are done."
 - **Gaps:**
   1. Nothing obvious missing at the break.
   2. The team discussions (case 1 and case 2) are partly unintelligible and partly in Spanish. Students' answers read from internet or AI searches are kept only where the lecturer confirmed them.
@@ -20,7 +20,7 @@ transcripts: ["TBL 9.2 Dysreguoation of cell cycle in cancer pt. 1.txt", "TBL 9.
 ## Resources
 - Slides: [[Universidad de Navarra/Medical Degree/Year 1/FMCI/Lectures/Lecture slides/Unit 9. Transmission of genetic traits and examples of genome-related diseases/TBL 9.2. Dysregulation of the cell cycle in cancer ADI.pdf|TBL 9.2. Dysregulation of the cell cycle in cancer ADI.pdf]]. Text came through; figures (hallmarks scheme, lung histology, papillomavirus scheme, FAP sequence, karyotype, HBOC risk table, vasculature images, HER2 FISH, treatment timeline of case 2): see the slides.
 - Videos (from the slides): anti-angiogenesis https://www.youtube.com/watch?v=Ep_nCSEDeAE ; escape from the immune system: YouTube search "immunotherapy the path to cure cancer".
-- Study material: [[Universidad de Navarra/Medical Degree/Year 1/FMCI/Lectures/Study material/Study material Unit 9. Transmission of genetic traits and examples of genome-related diseases/Reading material TBL 9.3.pdf|Reading material TBL 9.3.pdf]] (titled "Study material for TBL 9.3", last year's numbering for this TBL: summary of chapter 16 "Biología Celular del Cáncer", Biología Celular Biomédica; Gil-Bazo, Baraibar, Castañón, Nistal, Bandrés, Agirre, Prósper, Calvo).
+- Study material: [[Universidad de Navarra/Medical Degree/Year 1/FMCI/Lectures/Study material/Study material Unit 9. Transmission of genetic traits and examples of genome-related diseases/Reading material TBL 9.3.pdf|Reading material TBL 9.3.pdf]] (titled "Study material for TBL 9.3", but it belongs to this TBL (confirmed by Simon, 2026-11-03): summary of chapter 16 "Biología Celular del Cáncer", Biología Celular Biomédica; Gil-Bazo, Baraibar, Castañón, Nistal, Bandrés, Agirre, Prósper, Calvo).
 - Lucía: [[Universidad de Navarra/Medical Degree/Year 1/Material/FMCI  Lucia Reed notes|FMCI  Lucia Reed notes]], "TBL 9.3. Dysregulation of the cell-cycle in cancer", PDF p. 285-290.
 - Genetics class notes: no TBL 9.2 section. Relevant passages in [[Universidad de Navarra/Medical Degree/Year 1/Material/FMC I Genetics class notes 2026|FMC I Genetics class notes 2026]]: Lec 7.2 (BRCA1 and BRCA2 in the homologous recombination complex, p. 6), Lec 7.8 (homologous recombination repair, p. 41), Lec 9.1 (extreme aneuploidy in cancer cells, p. 70).
 - Related notes: [[Lec 9.4 Cancer genetics]] (oncogenes, tumour suppressor genes, HER2 amplification and anti-HER2 drugs), [[Lec 7.8 DNA damage, repair and recombination]] (p53, homologous recombination), [[Lec 9.1 Cytogenetics and genome analysis]] (karyotypes, FISH), [[POM Clinical interview social and family history]] (smoking and lung cancer screening, from the clinical side).

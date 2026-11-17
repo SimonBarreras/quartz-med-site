@@ -1,7 +1,7 @@
 ---
 tags: [unav, medicine, fmci, transcription, molecular-biology, lecture-notes]
 course: FMCI
-topic: Lec 8.1 DNA transcription (ADI and slides: "Lec. 8.1 and 8.2 Transcription I and II")
+topic: Lec 8.1 DNA transcription (ADI and slides "Lec. 8.1 and 8.2 Transcription I and II")
 lecturer: Dr. Matías Ávila
 transcripts: ["Lec 8.1 DNA transcription.txt"]
 ---

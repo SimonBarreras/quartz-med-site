@@ -1,7 +1,7 @@
 ---
 tags: [unav, medicine, fmci, lysosomes, lysosomal-storage-disorders, lecture-notes]
 course: FMCI
-topic: Lec 8.7 Protein degradation, lysosomes (slides: "Lec 8.8. Lysosomes")
+topic: Lec 8.7 Protein degradation, lysosomes (slides "Lec 8.8. Lysosomes")
 lecturer: probably Dr. Alfonso Calvo (see Sources)
 transcripts: ["8.7 protein degradation.txt"]
 ---
