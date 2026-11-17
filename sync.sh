@@ -28,9 +28,16 @@ rsync -a --delete \
   "$VAULT_MED/" \
   "$SITE/content/"
 
+cd "$SITE" || exit 1
+
+# GitHub rejects any push containing a file over 100 MB, so leave those out
+find content -type f -size +95M -print0 | while IFS= read -r -d '' f; do
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] Skipping file over 95 MB: $f"
+  rm -f "$f"
+done
+
 # Commit if something changed, then push anything not yet on GitHub
 # (this also retries a push that failed on an earlier run)
-cd "$SITE" || exit 1
 if [ -n "$(git status --porcelain)" ]; then
   git add -A
   git commit -m "Auto-update: $(date '+%Y-%m-%d')"
