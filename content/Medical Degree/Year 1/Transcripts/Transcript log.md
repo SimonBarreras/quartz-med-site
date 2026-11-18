@@ -91,6 +91,8 @@ No numeric codes in the teaching guide; the "Code" column gives the programme it
 | intro.txt | Course introduction (16 Nov 2026) | [[FMCII Overview of the immune system, innate and adaptive immunity]] (admin content only, in the Exam flags block) |
 | Innate and adaptive immunity.txt | Cells and molecules of the immune system (16 Nov 2026, lecture 1) | [[FMCII Overview of the immune system, innate and adaptive immunity]] |
 | Molecules recognized by innate and adaptive immunity.txt | Antigen, immunogen and hapten (16 Nov 2026, lecture 2) | [[FMCII Molecules recognized by innate and adaptive immunity]] |
+| Immunoglobulins structure and isotypes .txt | The immunoglobulin molecule: structure, function; isotype, idiotype (17 Nov 2026; arrived in _Inbox, moved to FMCII on 2026-11-17) | [[FMCII Immunoglobulins structure and isotypes]] |
+| Bacteria 1.txt | Microorganisms of clinical relevance: bacteria I (Tomás Maira, 17 Nov 2026; first 3 lines = end of the Ig lecture) | [[FMCII Clinically relevant microorganisms, bacteria I]] |
 
 ## Integrated Organs And Systems 1 (IOSI)
 No numeric codes in the teaching guide; the "Code" column gives the programme block. Notes in Year 1/Integrated Organs and Systems 1/Lectures/Lecture notes/. Section created 2026-11-16.
@@ -100,6 +102,7 @@ No numeric codes in the teaching guide; the "Code" column gives the programme bl
 | arthrology and myology .txt | Musculoskeletal: general arthrology and myology (session 2 of 3) | [[IOSI Arthrology and myology]] |
 | joints of the spine and ribs .txt | Musculoskeletal: vertebral column, joints of the spine and rib cage (session 3 of 3; start probably not recorded) | [[IOSI Joints of the spine and ribs]] |
 | thoracic viscera_ mediastinum .txt | Thoracic viscera overview: mediastinum (Dr Mar Cuadrado-Tejedor, 17 Nov 2026; whole lecture; arrived in _Inbox, moved to IOSI on 2026-11-17) | [[IOSI Thoracic viscera overview mediastinum]] |
+| radiology overview .txt | 1. Introduction to radiological anatomy (radiologist, 17 Nov 2026; whole lecture; arrived in _Inbox, moved to IOSI on 2026-11-17) | [[IOSI Introduction to radiological anatomy]] |
 
 ## Removed or unsorted files
 - FMF/Audio Clip 3(2).txt: duplicate of POM/Audio Clip 3(2).txt (same size and content), misfiled in FMF; deleted by Simon on 2026-10-26. No note.
