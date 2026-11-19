@@ -6,6 +6,12 @@
       <description>Last 10 notes on Medicine Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Transcript log</title>
+    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Transcripts/Transcript-log</link>
+    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Transcripts/Transcript-log</guid>
+    <description><![CDATA[ Transcript log One row per transcript file in Year 1/Transcripts//. New transcripts = files in those folders not listed here. ]]></description>
+    <pubDate>Thu, 19 Nov 2026 07:04:48 GMT</pubDate>
+  </item><item>
     <title>Apoptosis Quiz Study Notes</title>
     <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Apoptosis-Quiz-Study-Notes</link>
     <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Apoptosis-Quiz-Study-Notes</guid>
@@ -58,12 +64,6 @@
     <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Arthrology-and-myology</link>
     <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Arthrology-and-myology</guid>
     <description><![CDATA[ IOSI Arthrology and myology Sources arthrology and myology (automatic transcription, errors corrected). ]]></description>
-    <pubDate>Tue, 17 Nov 2026 08:50:04 GMT</pubDate>
-  </item><item>
-    <title>IOSI Introduction and general osteology</title>
-    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Introduction-and-general-osteology</link>
-    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Introduction-and-general-osteology</guid>
-    <description><![CDATA[ IOSI Introduction and general osteology Sources intro to IOSI osteologia (automatic transcription, errors corrected). Whole session. ]]></description>
     <pubDate>Tue, 17 Nov 2026 08:50:04 GMT</pubDate>
   </item>
     </channel>
