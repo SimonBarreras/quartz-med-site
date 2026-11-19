@@ -45,10 +45,21 @@ fi
 # Pick up any commits made on GitHub (e.g. fixes) before pushing
 git pull --rebase --quiet || echo "[$(date '+%Y-%m-%d %H:%M:%S')] Pull failed; pushing anyway."
 if [ -n "$(git log --oneline @{u}..HEAD 2>/dev/null || echo unpushed)" ]; then
-  if git push -u origin main; then
+  # Retry with waits: right after the Mac wakes, Wi-Fi is often not ready yet
+  # and large uploads can drop. A big postBuffer helps with large pushes.
+  pushed=0
+  for wait in 0 30 60 120 300; do
+    sleep "$wait"
+    if git -c http.postBuffer=524288000 push -u origin main; then
+      pushed=1
+      break
+    fi
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Push attempt failed."
+  done
+  if [ "$pushed" = 1 ]; then
     echo "[$(date '+%Y-%m-%d %H:%M:%S')] Changes pushed."
   else
-    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Push failed; will retry next run."
+    echo "[$(date '+%Y-%m-%d %H:%M:%S')] Push failed after 5 attempts; will retry next run."
   fi
 else
   echo "[$(date '+%Y-%m-%d %H:%M:%S')] No changes, nothing to push."
