@@ -103,6 +103,8 @@ No numeric codes in the teaching guide; the "Code" column gives the programme bl
 | joints of the spine and ribs .txt | Musculoskeletal: vertebral column, joints of the spine and rib cage (session 3 of 3; start probably not recorded) | [[IOSI Joints of the spine and ribs]] |
 | thoracic viscera_ mediastinum .txt | Thoracic viscera overview: mediastinum (Dr Mar Cuadrado-Tejedor, 17 Nov 2026; whole lecture; arrived in _Inbox, moved to IOSI on 2026-11-17) | [[IOSI Thoracic viscera overview mediastinum]] |
 | radiology overview .txt | 1. Introduction to radiological anatomy (radiologist, 17 Nov 2026; whole lecture; arrived in _Inbox, moved to IOSI on 2026-11-17) | [[IOSI Introduction to radiological anatomy]] |
+| MSK BIOPHYSICS .txt | Statics (biophysics session 1; programme item "Statics, balance, elasticity..."; ends "see you tomorrow") | [[IOSI Biophysics statics I]] |
+| cardiac histology .txt | Histology of the cardiovascular system, part 1 (Arantxa González Miqueo; heart, arteries, capillaries; continues 4 Dec; arrived in _Inbox, moved to IOSI on 2026-11-20) | [[IOSI Histology of the cardiovascular system I]] |
 
 ## Removed or unsorted files
 - FMF/Audio Clip 3(2).txt: duplicate of POM/Audio Clip 3(2).txt (same size and content), misfiled in FMF; deleted by Simon on 2026-10-26. No note.
