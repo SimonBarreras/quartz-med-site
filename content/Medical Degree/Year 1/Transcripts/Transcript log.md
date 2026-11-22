@@ -105,6 +105,9 @@ No numeric codes in the teaching guide; the "Code" column gives the programme bl
 | radiology overview .txt | 1. Introduction to radiological anatomy (radiologist, 17 Nov 2026; whole lecture; arrived in _Inbox, moved to IOSI on 2026-11-17) | [[IOSI Introduction to radiological anatomy]] |
 | MSK BIOPHYSICS .txt | Statics (biophysics session 1; programme item "Statics, balance, elasticity..."; ends "see you tomorrow") | [[IOSI Biophysics statics I]] |
 | cardiac histology .txt | Histology of the cardiovascular system, part 1 (Arantxa González Miqueo; heart, arteries, capillaries; continues 4 Dec; arrived in _Inbox, moved to IOSI on 2026-11-20) | [[IOSI Histology of the cardiovascular system I]] |
+| MSK biophysics 2.txt | Statics (biophysics session 2: torque, equilibrium; ends with a 10-minute pause) | [[IOSI Biophysics statics II]] |
+| elasticity biophysics 3.txt | Elasticity (biophysics session 3: stress, strain, stress-strain curve; probably after that pause) | [[IOSI Biophysics elasticity I]] |
+| heart development .txt | Heart development (Dr Mar Cuadrado-Tejedor, 20 Nov 2026; whole two-hour session; break chatter excluded) | [[IOSI Heart development]] |
 
 ## Removed or unsorted files
 - FMF/Audio Clip 3(2).txt: duplicate of POM/Audio Clip 3(2).txt (same size and content), misfiled in FMF; deleted by Simon on 2026-10-26. No note.
