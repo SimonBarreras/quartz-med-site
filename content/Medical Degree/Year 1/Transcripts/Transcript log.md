@@ -93,6 +93,10 @@ No numeric codes in the teaching guide; the "Code" column gives the programme it
 | Molecules recognized by innate and adaptive immunity.txt | Antigen, immunogen and hapten (16 Nov 2026, lecture 2) | [[FMCII Molecules recognized by innate and adaptive immunity]] |
 | Immunoglobulins structure and isotypes .txt | The immunoglobulin molecule: structure, function; isotype, idiotype (17 Nov 2026; arrived in _Inbox, moved to FMCII on 2026-11-17) | [[FMCII Immunoglobulins structure and isotypes]] |
 | Bacteria 1.txt | Microorganisms of clinical relevance: bacteria I (Tomás Maira, 17 Nov 2026; first 3 lines = end of the Ig lecture) | [[FMCII Clinically relevant microorganisms, bacteria I]] |
+| genetics of immunoglobulins.txt | The immunoglobulin molecule: structure, genetics and function (genetics of Igs; probably 23 Nov 2026; whole lecture) | [[FMCII Genetics of immunoglobulins]] |
+| B cell ontogeny .txt | Lymphocyte ontogeny: B cell ontogeny (after the genetics lecture; whole lecture; next session = two-hour applications session) | [[FMCII B cell ontogeny]] |
+| bacteria 2 cutoff .txt | Microorganisms of clinical relevance: bacteria II, part 1 (Tomás Maira, Mon 23 Nov 2026; periplasm to the start of pili) | [[FMCII Clinically relevant microorganisms, bacteria II]] |
+| bacteria 2 continuation .txt | Microorganisms of clinical relevance: bacteria II, part 2 (from facultative anaerobes to biofilms; gap before it = pili, flagella, metabolism; endospores not yet lectured) | [[FMCII Clinically relevant microorganisms, bacteria II]] |
 
 ## Integrated Organs And Systems 1 (IOSI)
 No numeric codes in the teaching guide; the "Code" column gives the programme block. Notes in Year 1/Integrated Organs and Systems 1/Lectures/Lecture notes/. Section created 2026-11-16.
@@ -108,6 +112,8 @@ No numeric codes in the teaching guide; the "Code" column gives the programme bl
 | MSK biophysics 2.txt | Statics (biophysics session 2: torque, equilibrium; ends with a 10-minute pause) | [[IOSI Biophysics statics II]] |
 | elasticity biophysics 3.txt | Elasticity (biophysics session 3: stress, strain, stress-strain curve; probably after that pause) | [[IOSI Biophysics elasticity I]] |
 | heart development .txt | Heart development (Dr Mar Cuadrado-Tejedor, 20 Nov 2026; whole two-hour session; break chatter excluded) | [[IOSI Heart development]] |
+| cardiac anatomy .txt | Heart anatomy: internal and external configuration (Dr Mar Cuadrado-Tejedor, 23 Nov 2026; unfinished: coronary vessels, conduction system and cardiac plexus continue 24 Nov) | [[IOSI Heart anatomy]] |
+| muscles of the back .txt | Musculoskeletal: muscles of the back (Dr Rafael Llombart Blanco, 23 Nov 2026; whole lecture) | [[IOSI Muscles of the back]] |
 
 ## Removed or unsorted files
 - FMF/Audio Clip 3(2).txt: duplicate of POM/Audio Clip 3(2).txt (same size and content), misfiled in FMF; deleted by Simon on 2026-10-26. No note.
