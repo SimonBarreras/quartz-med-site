@@ -6,6 +6,42 @@
       <description>Last 10 notes on Medicine Notes</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Transcript log</title>
+    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Transcripts/Transcript-log</link>
+    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Transcripts/Transcript-log</guid>
+    <description><![CDATA[ Transcript log One row per transcript file in Year 1/Transcripts//. New transcripts = files in those folders not listed here. ]]></description>
+    <pubDate>Tue, 24 Nov 2026 08:00:11 GMT</pubDate>
+  </item><item>
+    <title>FMCII B cell ontogeny</title>
+    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCII/Lectures/Lecture-notes/FMCII-B-cell-ontogeny</link>
+    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCII/Lectures/Lecture-notes/FMCII-B-cell-ontogeny</guid>
+    <description><![CDATA[ FMCII B cell ontogeny Sources B cell ontogeny (automatic transcription, errors corrected). ]]></description>
+    <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>FMCII Clinically relevant microorganisms, bacteria II</title>
+    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCII/Lectures/Lecture-notes/FMCII-Clinically-relevant-microorganisms,-bacteria-II</link>
+    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCII/Lectures/Lecture-notes/FMCII-Clinically-relevant-microorganisms,-bacteria-II</guid>
+    <description><![CDATA[ FMCII Clinically relevant microorganisms, bacteria II Sources bacteria 2 cutoff (part 1): from “bacteria, it will be class two of three” (periplasmic space) to the start of pili. ]]></description>
+    <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>FMCII Genetics of immunoglobulins</title>
+    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCII/Lectures/Lecture-notes/FMCII-Genetics-of-immunoglobulins</link>
+    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCII/Lectures/Lecture-notes/FMCII-Genetics-of-immunoglobulins</guid>
+    <description><![CDATA[ FMCII Genetics of immunoglobulins Sources genetics of immunoglobulins (automatic transcription, errors corrected). ]]></description>
+    <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>IOSI Heart anatomy</title>
+    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Heart-anatomy</link>
+    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Heart-anatomy</guid>
+    <description><![CDATA[ IOSI Heart anatomy Sources cardiac anatomy (automatic transcription, errors corrected). ]]></description>
+    <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+  </item><item>
+    <title>IOSI Muscles of the back</title>
+    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Muscles-of-the-back</link>
+    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Muscles-of-the-back</guid>
+    <description><![CDATA[ IOSI Muscles of the back Sources muscles of the back (automatic transcription, errors corrected). ]]></description>
+    <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
+  </item><item>
     <title>IOSI Biophysics elasticity I</title>
     <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Biophysics-elasticity-I</link>
     <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Biophysics-elasticity-I</guid>
@@ -16,12 +52,6 @@
     <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Biophysics-statics-II</link>
     <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Biophysics-statics-II</guid>
     <description><![CDATA[ IOSI Biophysics statics II Sources MSK biophysics 2 (automatic transcription, errors corrected). ]]></description>
-    <pubDate>Sun, 22 Nov 2026 14:05:43 GMT</pubDate>
-  </item><item>
-    <title>Transcript log</title>
-    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Transcripts/Transcript-log</link>
-    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Transcripts/Transcript-log</guid>
-    <description><![CDATA[ Transcript log One row per transcript file in Year 1/Transcripts//. New transcripts = files in those folders not listed here. ]]></description>
     <pubDate>Sun, 22 Nov 2026 14:05:43 GMT</pubDate>
   </item><item>
     <title>IOSI Biophysics statics I</title>
@@ -35,36 +65,6 @@
     <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Histology-of-the-cardiovascular-system-I</guid>
     <description><![CDATA[ IOSI Histology of the cardiovascular system I Sources cardiac histology (automatic transcription, errors corrected). ]]></description>
     <pubDate>Fri, 20 Nov 2026 08:00:10 GMT</pubDate>
-  </item><item>
-    <title>IOSI Heart development</title>
-    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Heart-development</link>
-    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/Integrated-Organs-and-Systems-1/Lectures/Lecture-notes/IOSI-Heart-development</guid>
-    <description><![CDATA[ IOSI Heart development Sources heart development (automatic transcription, errors corrected). ]]></description>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 GMT</pubDate>
-  </item><item>
-    <title>Apoptosis Quiz Study Notes</title>
-    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Apoptosis-Quiz-Study-Notes</link>
-    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Apoptosis-Quiz-Study-Notes</guid>
-    <description><![CDATA[ Apoptosis Quiz: Study Notes Oct 16, 2026 · @simon The 20 questions from the Aula Virtual apoptosis quiz. ]]></description>
-    <pubDate>Tue, 17 Nov 2026 08:50:04 GMT</pubDate>
-  </item><item>
-    <title>DNA Replication Study Notes (Lecture 7.3)</title>
-    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/DNA-Replication-Study-Notes-(Lecture-7.3)</link>
-    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/DNA-Replication-Study-Notes-(Lecture-7.3)</guid>
-    <description><![CDATA[ DNA Replication: Study Notes (Lecture 7.3) Oct 6, 2026 · @simon Big picture DNA is copied using each existing strand as a template, and the core rules are the same in every organism studied. ]]></description>
-    <pubDate>Tue, 17 Nov 2026 08:50:04 GMT</pubDate>
-  </item><item>
-    <title>Lec 8.1 DNA transcription</title>
-    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Lec-8.1-DNA-transcription</link>
-    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Lec-8.1-DNA-transcription</guid>
-    <description><![CDATA[ Lec 8.1 DNA transcription Sources Lec 8.1 DNA transcription (automatic transcription, errors corrected). One file. ]]></description>
-    <pubDate>Tue, 17 Nov 2026 08:50:04 GMT</pubDate>
-  </item><item>
-    <title>Lec 8.6 Protein folding, targeting and degradation</title>
-    <link>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Lec-8.6-Protein-folding,-targeting-and-degradation</link>
-    <guid>https://simonbarreras.github.io/quartz-med-site/Medical-Degree/Year-1/FMCI/Lectures/Lecture-notes/Lec-8.6-Protein-folding,-targeting-and-degradation</guid>
-    <description><![CDATA[ Lec 8.6 Protein folding, targeting and degradation Sources lec 8.6 targeting and protein degradation. (automatic transcription, errors corrected). ]]></description>
-    <pubDate>Tue, 17 Nov 2026 08:50:04 GMT</pubDate>
   </item>
     </channel>
   </rss>
