@@ -97,6 +97,10 @@ No numeric codes in the teaching guide; the "Code" column gives the programme it
 | B cell ontogeny .txt | Lymphocyte ontogeny: B cell ontogeny (after the genetics lecture; whole lecture; next session = two-hour applications session) | [[FMCII B cell ontogeny]] |
 | bacteria 2 cutoff .txt | Microorganisms of clinical relevance: bacteria II, part 1 (Tomás Maira, Mon 23 Nov 2026; periplasm to the start of pili) | [[FMCII Clinically relevant microorganisms, bacteria II]] |
 | bacteria 2 continuation .txt | Microorganisms of clinical relevance: bacteria II, part 2 (from facultative anaerobes to biofilms; gap before it = pili, flagella, metabolism; endospores not yet lectured) | [[FMCII Clinically relevant microorganisms, bacteria II]] |
+| applications of antibodies cutoff.txt | The immunoglobulin molecule: applications of antibodies, TBL part 1a (Tue 24 Nov 2026; theory: modes of action, isotype and Fc gamma receptors, hybridomas, CD nomenclature, murine to chimeric to humanized; ends at "fully human") | [[FMCII TBL Applications of antibodies]] |
+| applications of antibodies continuation.txt | Same TBL, part 1b (fully human antibodies, development pipeline, bispecifics, immune engagers, ADCs, formats and indications; after "stop here for five minutes" the rest is break chatter, dropped) | [[FMCII TBL Applications of antibodies]] |
+| applications of antibodies .txt | Same TBL, hour 2 (TBL questions, then the cancer slides: CD20/rituximab, EGFR/cetuximab vs panitumumab, PD-1/nivolumab, atezolizumab, 22C3, then more questions; starts mid-question, so the start of hour 2 is missing) | [[FMCII TBL Applications of antibodies]] |
+| Bacteria 3.txt | Microorganisms of clinical relevance: bacteria III (Tomás Maira, Tue 24 Nov 2026; whole lecture with timestamps: antibiotics, MIC/MBC, targets, bacterial genetics, operons, plasmids, horizontal gene transfer, E. coli pathotypes; opening sentence garbled; endospores announced for next class) | [[FMCII Clinically relevant microorganisms, bacteria III]] |
 
 ## Integrated Organs And Systems 1 (IOSI)
 No numeric codes in the teaching guide; the "Code" column gives the programme block. Notes in Year 1/Integrated Organs and Systems 1/Lectures/Lecture notes/. Section created 2026-11-16.
@@ -114,6 +118,7 @@ No numeric codes in the teaching guide; the "Code" column gives the programme bl
 | heart development .txt | Heart development (Dr Mar Cuadrado-Tejedor, 20 Nov 2026; whole two-hour session; break chatter excluded) | [[IOSI Heart development]] |
 | cardiac anatomy .txt | Heart anatomy: internal and external configuration (Dr Mar Cuadrado-Tejedor, 23 Nov 2026; unfinished: coronary vessels, conduction system and cardiac plexus continue 24 Nov) | [[IOSI Heart anatomy]] |
 | muscles of the back .txt | Musculoskeletal: muscles of the back (Dr Rafael Llombart Blanco, 23 Nov 2026; whole lecture) | [[IOSI Muscles of the back]] |
+| cardiac anatomy 3.txt | Heart anatomy, extra session (Dr Mar Cuadrado-Tejedor, 24 Nov 2026): conduction system, cardiac plexuses and afferents, coronary arteries, cardiac veins; third cardiac lecture, not a part 3 | [[IOSI Heart anatomy]] (section 10) |
 
 ## Removed or unsorted files
 - FMF/Audio Clip 3(2).txt: duplicate of POM/Audio Clip 3(2).txt (same size and content), misfiled in FMF; deleted by Simon on 2026-10-26. No note.
