@@ -119,6 +119,11 @@ No numeric codes in the teaching guide; the "Code" column gives the programme bl
 | cardiac anatomy .txt | Heart anatomy: internal and external configuration (Dr Mar Cuadrado-Tejedor, 23 Nov 2026; unfinished: coronary vessels, conduction system and cardiac plexus continue 24 Nov) | [[IOSI Heart anatomy]] |
 | muscles of the back .txt | Musculoskeletal: muscles of the back (Dr Rafael Llombart Blanco, 23 Nov 2026; whole lecture) | [[IOSI Muscles of the back]] |
 | cardiac anatomy 3.txt | Heart anatomy, extra session (Dr Mar Cuadrado-Tejedor, 24 Nov 2026): conduction system, cardiac plexuses and afferents, coronary arteries, cardiac veins; third cardiac lecture, not a part 3 | [[IOSI Heart anatomy]] (section 10) |
+| thoracic wall and abdomen .txt | Musculoskeletal: thoracic wall and anterolateral abdominal wall (Dr Rafael Llombart Blanco, Thu 26 Nov 2026; essentially the whole lecture, opens at the pectoral-region slide) | [[IOSI Thoracic wall and abdomen]] |
+| Thoracic wall and abdomen continued.txt | Same class, intended continuation | no note: failed transcription, the file contains only the words "Thank you." (11 bytes) |
+| Electric Beh. of Heart.txt | Biophysics, cardiovascular block: electric behaviour of the heart, session 1 of 2 (myocyte, Nernst potentials, calcium, gap junctions, contraction front; ends "in 10 minutes we will continue") | [[IOSI Biophysics electric behaviour of the heart]] |
+| ekg ecg.txt | Biophysics: electric behaviour, session 2 of 2, the electrocardiogram (voltmeter, the dipole, Einthoven leads, projections). Opens by reviewing session 1; unclear whether it is after that 10-minute break or the next day | [[IOSI Biophysics the electrocardiogram]] |
+| blood pressure.txt | Biophysics: blood circulation, session 1 (complex vs simple fluids, solid vs fluid, Pascal principle, mass conservation, stenosis, effective area of the capillaries; closes with the kinetic-energy question for the next session) | [[IOSI Biophysics blood circulation I]] |
 
 ## Removed or unsorted files
 - FMF/Audio Clip 3(2).txt: duplicate of POM/Audio Clip 3(2).txt (same size and content), misfiled in FMF; deleted by Simon on 2026-10-26. No note.
